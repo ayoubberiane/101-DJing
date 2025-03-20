@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* Body and Font Setup */
 body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
@@ -12,12 +13,12 @@ body {
     text-align: center;
 }
 
-/* Header */
+/* Header Section */
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 20px 40px;
     background: #FF5722;
 }
 
@@ -27,36 +28,41 @@ body {
 }
 
 .logo {
-    width: 80px; /* Adjusted logo size */
-    margin-right: 10px;
+    width: 80px;
+    margin-right: 15px;
 }
 
 .navbar h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
+    letter-spacing: 2px;
 }
 
 /* Video Section */
-.video-container {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+.video-section {
+    padding: 50px 20px;
 }
 
-.intro-video {
+.video-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+video {
     width: 80%;
     max-width: 800px;
     border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Next Button */
 .next-btn {
-    background: #FF9800;
+    display: block;
+    margin: 20px auto;
+    background: #FF5722;
     color: white;
-    padding: 15px 30px;
     font-size: 1.2rem;
+    padding: 12px 25px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -64,21 +70,46 @@ body {
 }
 
 .next-btn:hover {
-    background: #FF5722;
+    background: #FF9800;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1rem;
+}
+
+.footer .privacy-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .privacy-link:hover {
+    color: orange;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .intro-video {
-        width: 90%;
+    .navbar h1 {
+        font-size: 2rem;
     }
 
-    .navbar h1 {
-        font-size: 1.5rem;
+    .logo {
+        width: 60px;
+    }
+
+    video {
+        width: 95%;
     }
 
     .next-btn {
         font-size: 1rem;
-        padding: 12px 25px;
+        padding: 10px 20px;
     }
 }
