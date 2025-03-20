@@ -1,6 +1,5 @@
 
-
-  /* Reset styles */
+/* Reset styles */
 * {
     margin: 0;
     padding: 0;
@@ -11,13 +10,20 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    background: #111;
+    background: #FF5722; /* Changed to match header */
+}
+
+/* Logo Styling */
+.logo {
+    display: block;
+    margin: 20px auto; /* Centers horizontally */
+    width: 150px; /* Adjust size as needed */
 }
 
 /* Header Section */
 .header {
     background: linear-gradient(135deg, #FF5722, #FF9800);
-    padding: 100px 20px;
+    padding: 80px 20px;
     text-align: center;
     color: #fff;
 }
@@ -140,40 +146,6 @@ body {
     background-color: #FF5722;
 }
 
-/* Contact Form */
-.contact {
-    background-color: #444;
-    padding: 80px 20px;
-    text-align: center;
-}
-
-.contact input,
-.contact textarea {
-    width: 100%;
-    padding: 15px;
-    margin: 10px 0;
-    border: 2px solid #555;
-    border-radius: 5px;
-    background-color: #333;
-    color: #fff;
-    font-size: 1.1rem;
-}
-
-.submit-btn {
-    background-color: #FF5722;
-    padding: 15px 25px;
-    color: #fff;
-    border: none;
-    font-size: 1.2rem;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.submit-btn:hover {
-    background-color: #FF9800;
-}
-
 /* Footer */
 .footer {
     background-color: #222;
@@ -187,13 +159,13 @@ body {
 
 /* Footer Styling */
 .footer .privacy-link {
-    color: white; /* Default color - white */
-    text-decoration: none; /* No underline */
-    transition: color 0.3s ease; /* Smooth transition for color change */
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .footer .privacy-link:hover {
-    color: orange; /* Orange color on hover */
+    color: orange;
 }
 
 /* Responsive Design */
