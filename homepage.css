@@ -53,8 +53,136 @@ body {
     color: #FF9800;
 }
 
+/* Intro Section */
+.intro {
+    background-color: #222;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.cta-btn {
+    background: #FF5722;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: #FF9800;
+}
+
+/* Course Section */
+.course {
+    background: #333;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.course-levels {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 40px;
+    justify-items: center;
+}
+
+.level {
+    background: #444;
+    border-radius: 10px;
+    padding: 40px;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.level:hover {
+    background: #FF5722;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+}
+
+.level-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.level-header h3 {
+    font-size: 2rem;
+}
+
+.level-header span {
+    background: #FF5722;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.level p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.level-btn {
+    background-color: #FF9800;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.level-btn:hover {
+    background-color: #FF5722;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1.2rem;
+}
+
+.footer .privacy-link {
+    color: white; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .privacy-link:hover {
+    color: orange; 
+}
+
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
+    /* Header */
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -83,6 +211,28 @@ body {
     .nav-links a {
         font-size: 1.1rem;
     }
-}
 
-/* Other Sections (Intro, Course, Footer) remain the same */
+    /* Intro Section */
+    .intro h2 {
+        font-size: 2rem;
+    }
+
+    .cta-btn {
+        font-size: 1rem;
+    }
+
+    /* Course Section */
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .level-btn,
+    .cta-btn {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .level-header h3 {
+        font-size: 1.5rem;
+    }
+}
