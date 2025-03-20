@@ -1,3 +1,4 @@
+
 /* Reset styles */
 * {
     margin: 0;
@@ -27,7 +28,7 @@ body {
 }
 
 .logo {
-    width: 70px; /* Increased logo size */
+    width: 70px; /* Logo size */
     margin-right: 10px;
 }
 
@@ -170,19 +171,20 @@ body {
     font-size: 1.2rem;
 }
 
+/* Footer Styling */
 .footer .privacy-link {
-    color: white; 
-    text-decoration: none;
-    transition: color 0.3s ease;
+    color: white; /* Default color - white */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
 .footer .privacy-link:hover {
-    color: orange; 
+    color: orange; /* Orange color on hover */
 }
 
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
-    /* Header */
+    /* Navbar Adjustments */
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -212,27 +214,57 @@ body {
         font-size: 1.1rem;
     }
 
-    /* Intro Section */
+    /* Intro Section for Mobile */
+    .intro {
+        padding: 40px 20px; /* Reduce padding */
+        text-align: center;
+    }
+
     .intro h2 {
-        font-size: 2rem;
+        font-size: 2.2rem; /* Adjust heading size */
+    }
+
+    .intro p {
+        font-size: 1rem; /* Adjust font size */
+        max-width: 600px;
+        margin: 10px auto;
     }
 
     .cta-btn {
+        width: 100%; /* Make button full width */
         font-size: 1rem;
     }
 
-    /* Course Section */
+    /* Course Levels Section for Mobile */
+    .course {
+        padding: 40px 20px;
+    }
+
     .section-title {
         font-size: 2rem;
+        margin-bottom: 30px; /* Adjust spacing */
     }
 
-    .level-btn,
-    .cta-btn {
-        width: 100%;
-        font-size: 1rem;
+    .course-levels {
+        display: flex;
+        flex-direction: column; /* Stack the levels vertically */
+        gap: 20px;
+    }
+
+    .level {
+        width: 100%; /* Take full width */
+        padding: 30px;
     }
 
     .level-header h3 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .level p {
+        font-size: 1rem;
+    }
+
+    .level-btn {
+        font-size: 1rem;
     }
 }
