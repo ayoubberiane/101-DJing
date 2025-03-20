@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Button click animation for level buttons
     const levelButtons = document.querySelectorAll('.level-btn');
-    
+
     levelButtons.forEach(button => {
         button.addEventListener('click', function() {
-            alert(Welcome to ${this.previousElementSibling.previousElementSibling.textContent}! Get ready to dive into this level!);
+            alert(Welcome to ${this.closest('.level').querySelector('h3').textContent}! Get ready to dive into this level!);
         });
     });
 
-    // Form submission handling
+    // Form submission handling (if form exists)
     const contactForm = document.getElementById('contactForm');
     
     if (contactForm) {
