@@ -12,14 +12,16 @@ body {
     background: #FF5722; /* Orange background */
 }
 
-/* Header Styling */
-.header {
+/* Navigation Bar */
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    background: linear-gradient(135deg, #FF5722, #FF9800);
-    color: #fff;
+    padding: 10px 40px;
+    background: #111;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .logo-title {
@@ -38,6 +40,10 @@ h1 {
     letter-spacing: 2px;
 }
 
+.nav-links {
+    display: flex;
+}
+
 .nav-links a {
     color: white;
     margin-left: 20px;
@@ -51,7 +57,7 @@ h1 {
     color: #FF9800; /* Orange color on hover */
 }
 
-/* Intro Section */
+/* Welcome Section */
 .intro {
     background-color: #222;
     padding: 80px 20px;
