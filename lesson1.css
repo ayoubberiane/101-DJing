@@ -1,120 +1,86 @@
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body and Font Setup */
+/* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    color: #fff;
-    background: #111;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Ensures full height */
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-/* Header */
-.navbar {
+/* Header Styles */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
     display: flex;
-    justify-content: center; /* Centered logo and name */
+    justify-content: center;
     align-items: center;
-    padding: 20px;
-    background: #FF5722; /* Orange header */
 }
 
-.logo-title {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    width: 70px; /* Logo size */
+header .logo img {
+    max-width: 50px;
     margin-right: 10px;
 }
 
-.navbar h1 {
-    font-size: 3rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    color: white; /* Ensuring white text */
+header .logo span {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-/* Main Content */
-.main-content {
-    flex: 1; /* Pushes footer to bottom */
-    text-align: center;
-    padding: 40px 20px;
+/* Main Content Styles */
+main {
+    padding: 50px 20px;
 }
 
-.main-content h1 {
-    font-size: 2.5rem;
+h1 {
+    font-size: 2.5em;
+    color: #333;
     margin-bottom: 20px;
 }
 
-.main-content p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+p {
+    font-size: 1.2em;
+    color: #555;
 }
 
-/* Buttons */
+/* Button Styles */
 .button {
-    padding: 15px 30px;
-    background-color: #FF5722;
+    padding: 12px 30px;
+    background-color: #007bff;
     color: white;
     text-decoration: none;
-    border-radius: 30px;
-    font-size: 1.2rem;
-    display: inline-block;
-    margin: 10px;
-    transition: background 0.3s ease;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2em;
 }
 
 .button:hover {
-    background-color: #FF9800;
+    background-color: #0056b3;
 }
 
-/* Footer */
-.footer {
+/* Footer Styles */
+footer {
     background-color: #222;
-    padding: 20px;
-    text-align: center;
+    color: white;
+    padding: 20px 0;
+    position: absolute;
     width: 100%;
+    bottom: 0;
 }
 
-/* Keep Privacy Policy & Terms of Use Links White */
-.footer .privacy-link {
-    color: white;  /* White color */
+footer .footer-content {
+    text-align: center;
+}
+
+footer .footer-link {
+    color: white;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
-.footer .privacy-link:hover {
-    color: white;  /* Stays white even on hover */
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .navbar h1 {
-        font-size: 2rem;
-    }
-
-    .logo {
-        width: 50px;
-    }
-
-    .main-content h1 {
-        font-size: 2rem;
-    }
-
-    .main-content p {
-        font-size: 1rem;
-    }
-
-    .button {
-        font-size: 1rem;
-        width: 100%;
-        padding: 12px;
-    }
+footer .footer-link:hover {
+    text-decoration: underline;
 }
