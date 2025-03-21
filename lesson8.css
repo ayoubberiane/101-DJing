@@ -1,0 +1,106 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Setup */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: #111;
+    text-align: center;
+}
+
+/* Header Section */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background: #FF5722;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 15px;
+}
+
+.navbar h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* Lesson Content */
+.lesson-content {
+    padding: 50px 20px;
+}
+
+.lesson-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    background: #FF5722;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #FF9800;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 1rem;
+}
+
+.footer .privacy-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .privacy-link:hover {
+    color: orange;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar h1 {
+        font-size: 2rem;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
