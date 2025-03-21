@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Delay the redirection for 2 seconds without affecting layout
         setTimeout(function () {
-            window.location.href = "thank.html"; // Redirect to the thank you page
+            window.location.href =  "index.html"; // Redirect to homepage
         }, 2000); // 2-second delay before redirect
     });
 });
