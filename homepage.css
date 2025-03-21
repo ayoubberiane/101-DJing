@@ -1,5 +1,4 @@
-
- /* Reset styles */
+/* Reset styles */
 * {
     margin: 0;
     padding: 0;
@@ -49,6 +48,7 @@ body {
     color: black; /* Change to black on hover */
 }
 
+/* Navigation Links */
 .nav-links {
     display: flex;
     gap: 20px;
@@ -130,6 +130,7 @@ body {
     flex: 1 1 30%; /* Ensures 3 levels side-by-side on desktop */
     max-width: 350px; /* Limit max width for each level */
     min-width: 300px; /* Ensure minimum width */
+    word-wrap: break-word; /* Ensures text doesn't overflow */
 }
 
 .level:hover {
