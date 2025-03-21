@@ -11,9 +11,6 @@ body {
     color: #fff;
     background: #111;
     text-align: center;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 /* Header Section */
@@ -43,17 +40,11 @@ body {
 
 /* Lesson Content */
 .lesson-content {
-    flex: 1;
     padding: 50px 20px;
 }
 
 .lesson-content h2 {
     font-size: 2rem;
-    margin-bottom: 15px;
-}
-
-.lesson-content p {
-    font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
@@ -61,13 +52,12 @@ body {
 .button {
     display: inline-block;
     padding: 12px 25px;
+    margin: 10px;
     background: #FF5722;
     color: white;
     font-size: 1.2rem;
-    border: none;
-    border-radius: 30px;
     text-decoration: none;
-    margin: 10px;
+    border-radius: 30px;
     transition: background 0.3s ease;
 }
 
@@ -75,17 +65,14 @@ body {
     background: #FF9800;
 }
 
-/* Navigation Buttons */
-.navigation {
-    margin-top: 20px;
-}
-
 /* Footer */
 .footer {
     background-color: #222;
     padding: 20px;
     text-align: center;
-    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer p {
@@ -110,10 +97,6 @@ body {
 
     .logo {
         width: 60px;
-    }
-
-    .lesson-content p {
-        font-size: 1rem;
     }
 
     .button {
