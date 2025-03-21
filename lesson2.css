@@ -11,9 +11,6 @@ body {
     color: #fff;
     background: #111;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 /* Header Section */
@@ -51,24 +48,17 @@ body {
     margin-bottom: 20px;
 }
 
-.lesson-content p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-}
-
-/* Button Styling */
+/* Buttons */
 .button {
+    display: inline-block;
     padding: 12px 25px;
+    margin: 10px;
     background: #FF5722;
     color: white;
     font-size: 1.2rem;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background 0.3s ease;
     text-decoration: none;
-    display: inline-block; /* Align buttons side by side */
-    margin: 10px; /* Spacing between buttons */
+    border-radius: 30px;
+    transition: background 0.3s ease;
 }
 
 .button:hover {
@@ -80,7 +70,9 @@ body {
     background-color: #222;
     padding: 20px;
     text-align: center;
-    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer p {
@@ -107,7 +99,7 @@ body {
         width: 60px;
     }
 
-    button, .button {
+    .button {
         font-size: 1rem;
         padding: 10px 20px;
     }
