@@ -38,18 +38,13 @@ body {
     letter-spacing: 2px;
 }
 
-/* Lesson Container */
-.lesson-container {
+/* Lesson Content */
+.lesson-content {
     padding: 50px 20px;
 }
 
-.lesson-container h2 {
+.lesson-content h2 {
     font-size: 2rem;
-    margin-bottom: 15px;
-}
-
-.lesson-container p {
-    font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
@@ -57,22 +52,17 @@ body {
 .button {
     display: inline-block;
     padding: 12px 25px;
+    margin: 10px;
     background: #FF5722;
     color: white;
     font-size: 1.2rem;
     text-decoration: none;
     border-radius: 30px;
-    margin: 10px;
     transition: background 0.3s ease;
 }
 
 .button:hover {
     background: #FF9800;
-}
-
-/* Navigation Buttons */
-.navigation {
-    margin-top: 20px;
 }
 
 /* Footer */
