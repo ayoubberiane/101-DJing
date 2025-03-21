@@ -25,7 +25,12 @@ body {
     display: flex;
     align-items: center;
 }
-
+.by-me {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;  /* You can adjust the color as needed */
+    margin-left: 5px;
+}
 .logo {
     width: 70px; /* Logo size */
     margin-right: 10px;
