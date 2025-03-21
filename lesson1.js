@@ -1,8 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const nextButton = document.querySelector(".next-btn");
-
-    nextButton.addEventListener("click", function () {
-        // Redirect to Lesson 2 page
-        window.location.href = "lesson2.html";
-    });
+// Handle next button click to ensure smooth transition to next lesson
+document.querySelector('.button').addEventListener('click', function(e) {
+    e.preventDefault();  // Prevent default link behavior
+    window.location.href = "lesson2.html";  // Redirect to next lesson (Lesson 2)
 });
