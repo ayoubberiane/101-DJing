@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
         // Show the thank you message
         thankYouMessage.style.display = "block";
 
-        // Delay the redirection for 2 seconds without affecting layout
+        // Delay the redirection for 5 seconds without affecting layout
         setTimeout(function () {
             window.location.href =  "index.html"; // Redirect to homepage
-        }, 2000); // 2-second delay before redirect
+        }, 5000); // 5-second delay before redirect
     });
 });
