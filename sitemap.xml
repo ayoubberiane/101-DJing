@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Main content sections on homepage -->
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/index.html#welcome</loc>
+  </url>
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/index.html#course-levels</loc>
+  </url>
+
+  <!-- Video page -->
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/video.html</loc>
+  </url>
+
+  <!-- Lessons -->
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/lesson1.html</loc>
+  </url>
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/lesson2.html</loc>
+  </url>
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/lesson3.html</loc>
+  </url>
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/lesson4.html</loc>
+  </url>
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/lesson5.html</loc>
+  </url>
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/lesson6.html</loc>
+  </url>
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/lesson7.html</loc>
+  </url>
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/lesson8.html</loc>
+  </url>
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/lesson9.html</loc>
+  </url>
+
+  <!-- Coming soon pages -->
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/comingsoon2.html</loc>
+  </url>
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/comingsoon3.html</loc>
+  </url>
+
+  <!-- Feedback -->
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/feedback.html</loc>
+  </url>
+
+  <!-- Other pages -->
+  <url>
+    <loc>https://ayoubberiane.github.io/101-DJing-Course/level.html</loc>
+  </url>
+</urlset>
